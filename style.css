@@ -1,0 +1,27 @@
+#EastBayloopNavbar {
+    height:90px;
+}
+
+
+
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.container-talent {
+    margin-left: 10px;
+}
