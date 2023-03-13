@@ -1,8 +1,21 @@
-#EastBayloopNavbar {
-    height:90px;
+#navbar-text {
+    font-weight: 500;
+    color:white;
 }
 
+#eastbayloop-navbar{
+    background-color: black;
+}
 
+#logo {
+    padding-left: 100px;
+}
+
+.dot {
+    margin-top: 15px;
+    border-radius: 2px;
+    background-color: #ffe600 !important;
+}
 
 
 .banner-text {
@@ -15,13 +28,51 @@
     font-weight: bolder;
 }
 
-.contenedor {
+#contenedor {
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
-
-.container-talent {
+@media (min-width: 375px) {
+   #talent-image {
     margin-left: 10px;
-}
+   }
+
+   #formulario {
+    margin-left:2%;
+   }
+  }
+
+
+  @media (min-width: 414px) {
+    #talent-image {
+     margin-left: 25px;
+    }
+ 
+   
+   }
+
+
+   @media (min-width: 412px) and (max-width:414px) {
+    #talent-image {
+     margin-left: 30px;
+    }
+ 
+   
+  
+   }
+
+
+
+   @media (min-width:800px) {
+    #formulario {
+        margin-left: 35%;
+    }
+   }
+  
+
+   #footer {
+    background-color: black;
+    height: 100px;;
+   }
