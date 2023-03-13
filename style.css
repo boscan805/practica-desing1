@@ -19,19 +19,22 @@
 
 
 .banner-text {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:white;
     font-size: 50px;
     font-weight: bolder;
+    text-align: center;
 }
 
 #contenedor {
-    position: relative;
-    display: inline-block;
-    text-align: center;
+ background-image: url(/images/talent_banner.png);
+ background-repeat: no-repeat;
+ background-size: 100%;
+ width: 100%;
+ height:755.5px;
 }
 
 @media (min-width: 375px) {
@@ -102,4 +105,29 @@
         margin-left: 49%;
     }
 
+   }
+
+
+   @media (min-width:360px) and (max-width:500px){
+    #contenedor {
+        height: 250px;
+    }
+   }
+
+
+   @media (min-width:360px) and (max-width:500px) {
+    .banner-text {
+        transform: translate(-50%, -50%);
+        color:white;
+        font-size: 36px;
+        font-weight: bolder;
+        width: 69%;
+    }
+    
+   }
+
+   
+   #user-icon {
+    padding-top:10px;
+    padding-left: 30px;
    }
