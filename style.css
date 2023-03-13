@@ -39,9 +39,14 @@
     margin-left: 10px;
    }
 
+
+
    #formulario {
     margin-left:2%;
    }
+
+   
+
   }
 
 
@@ -67,12 +72,34 @@
 
    @media (min-width:800px) {
     #formulario {
-        margin-left: 35%;
+        margin-left: 40%;
     }
    }
   
 
    #footer {
     background-color: black;
-    height: 100px;;
+    height: 145px;;
+   }
+
+   .btn-footer{
+    height: 42px;
+    width: 42px;
+    background-color:  rgb(217, 255, 0);
+    border: 1px solid rgb(217, 255, 0) ;
+   }
+
+   @media (min-width: 360px) and (max-width:500px) { 
+    .btn-footer {
+        margin-left: 47%;
+    }
+
+   }
+
+
+   @media (min-width: 1500px) { 
+    .btn-footer {
+        margin-left: 49%;
+    }
+
    }
