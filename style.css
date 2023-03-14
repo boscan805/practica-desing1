@@ -77,6 +77,11 @@
     #formulario {
         margin-left: 40%;
     }
+
+    .image-logo {
+        padding-left: 110px;
+    }
+
    }
   
 
@@ -130,4 +135,12 @@
    #user-icon {
     padding-top:10px;
     padding-left: 30px;
+   }
+
+
+   @media (min-width:360px)  and (max-width:500px) {
+    .image-logo {
+        padding-left: 0px;
+    }
+
    }
